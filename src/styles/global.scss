@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 500 1rem Prompt, sans-serif;
+    color: white;
+}
+
+// variaveis para todo o projeto
+:root {
+    --bg: #0E1218;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+}
+
+@media (max-width: 1080px){
+    html{
+        font-size: 93.75%; //15px
+    }
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 87.5%; //14px
+    }
+}
+
+body{
+    background: var(--gray-50);
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Prompt, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+button{
+    cursor: pointer;
+}
